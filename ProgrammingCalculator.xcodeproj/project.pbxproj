@@ -15,6 +15,9 @@
 		89911BBD2784E3CD000B5007 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89911BBC2784E3CD000B5007 /* ComplicationController.swift */; };
 		89911BBF2784E3CE000B5007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89911BBE2784E3CE000B5007 /* Assets.xcassets */; };
 		89911BC22784E3CE000B5007 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89911BC12784E3CE000B5007 /* Preview Assets.xcassets */; };
+		89911BD32784E488000B5007 /* CalcButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89911BD22784E488000B5007 /* CalcButtons.swift */; };
+		89911BD52784E4AB000B5007 /* Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89911BD42784E4AB000B5007 /* Logic.swift */; };
+		89911BD72784E54B000B5007 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89911BD62784E54B000B5007 /* Structures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,9 @@
 		89911BBE2784E3CE000B5007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89911BC12784E3CE000B5007 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89911BC32784E3CE000B5007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89911BD22784E488000B5007 /* CalcButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcButtons.swift; sourceTree = "<group>"; };
+		89911BD42784E4AB000B5007 /* Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logic.swift; sourceTree = "<group>"; };
+		89911BD62784E54B000B5007 /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,7 @@
 		89911BB72784E3CD000B5007 /* ProgrammingCalculator WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				89911BD12784E46B000B5007 /* Sources */,
 				89911BB82784E3CD000B5007 /* ContentView.swift */,
 				89911BBA2784E3CD000B5007 /* ProgrammingCalculatorApp.swift */,
 				89911BBC2784E3CD000B5007 /* ComplicationController.swift */,
@@ -129,6 +136,16 @@
 				89911BC12784E3CE000B5007 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		89911BD12784E46B000B5007 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				89911BD22784E488000B5007 /* CalcButtons.swift */,
+				89911BD42784E4AB000B5007 /* Logic.swift */,
+				89911BD62784E54B000B5007 /* Structures.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				89911BB92784E3CD000B5007 /* ContentView.swift in Sources */,
+				89911BD72784E54B000B5007 /* Structures.swift in Sources */,
+				89911BD52784E4AB000B5007 /* Logic.swift in Sources */,
 				89911BBB2784E3CD000B5007 /* ProgrammingCalculatorApp.swift in Sources */,
+				89911BD32784E488000B5007 /* CalcButtons.swift in Sources */,
 				89911BBD2784E3CD000B5007 /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
